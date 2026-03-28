@@ -9,6 +9,7 @@ setup.py
 ../build/publisher_node/publisher_node.egg-info/top_level.txt
 ../build/publisher_node/publisher_node.egg-info/zip-safe
 publisher_node/__init__.py
+publisher_node/my_publisher_node.py
 resource/publisher_node
 test/test_copyright.py
 test/test_flake8.py

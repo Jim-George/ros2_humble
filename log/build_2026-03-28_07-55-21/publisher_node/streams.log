@@ -1,0 +1,21 @@
+[0.724s] Invoking command in '/home/ubuntu/ros2_ws/src/publisher_node': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/publisher_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/publisher_node build --build-base /home/ubuntu/ros2_ws/src/build/publisher_node/build install --record /home/ubuntu/ros2_ws/src/build/publisher_node/install.log --single-version-externally-managed install_data
+[0.950s] running egg_info
+[0.951s] writing ../build/publisher_node/publisher_node.egg-info/PKG-INFO
+[0.952s] writing dependency_links to ../build/publisher_node/publisher_node.egg-info/dependency_links.txt
+[0.953s] writing entry points to ../build/publisher_node/publisher_node.egg-info/entry_points.txt
+[0.953s] writing requirements to ../build/publisher_node/publisher_node.egg-info/requires.txt
+[0.954s] writing top-level names to ../build/publisher_node/publisher_node.egg-info/top_level.txt
+[0.961s] reading manifest file '../build/publisher_node/publisher_node.egg-info/SOURCES.txt'
+[0.966s] writing manifest file '../build/publisher_node/publisher_node.egg-info/SOURCES.txt'
+[0.967s] running build
+[0.968s] running build_py
+[0.969s] running install
+[0.969s] running install_lib
+[0.971s] running install_data
+[0.972s] running install_egg_info
+[0.972s] removing '/home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages/publisher_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.973s] Copying ../build/publisher_node/publisher_node.egg-info to /home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages/publisher_node-0.0.0-py3.10.egg-info
+[0.995s] running install_scripts
+[1.028s] Installing publisher_node script to /home/ubuntu/ros2_ws/src/install/publisher_node/lib/publisher_node
+[1.031s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/publisher_node/install.log'
+[1.050s] Invoked command in '/home/ubuntu/ros2_ws/src/publisher_node' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/publisher_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/publisher_node build --build-base /home/ubuntu/ros2_ws/src/build/publisher_node/build install --record /home/ubuntu/ros2_ws/src/build/publisher_node/install.log --single-version-externally-managed install_data

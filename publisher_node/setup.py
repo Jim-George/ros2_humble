@@ -23,7 +23,7 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-        ],
+        'console_scripts':
+            ['publisher_node = publisher_node.my_publisher_node:main',],
     },
 )

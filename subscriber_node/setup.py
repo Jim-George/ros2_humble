@@ -23,7 +23,7 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
+        'console_scripts': ['subscriber_node = subscriber_node.subscriber_node:main',
         ],
     },
 )
