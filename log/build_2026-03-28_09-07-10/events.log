@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (my_pkg) JobQueued: {'identifier': 'my_pkg', 'dependencies': OrderedDict()}
+[0.000703] (subscriber_node) JobQueued: {'identifier': 'subscriber_node', 'dependencies': OrderedDict()}
+[0.000863] (publisher_node) JobQueued: {'identifier': 'publisher_node', 'dependencies': OrderedDict([('subscriber_node', '/home/ubuntu/ros2_ws/src/install/subscriber_node')])}
+[0.000908] (subscriber_node) JobStarted: {'identifier': 'subscriber_node'}
+[0.007116] (my_pkg) JobStarted: {'identifier': 'my_pkg'}
+[0.099308] (-) TimerEvent: {}
+[0.203098] (-) TimerEvent: {}
+[0.303685] (-) TimerEvent: {}
+[0.404645] (-) TimerEvent: {}
+[0.505268] (my_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/my_pkg', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/build/my_pkg/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/build/my_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/my_pkg', 'env': {'USER': 'ubuntu', 'HOSTNAME': '8b4faaf0a0d3', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src/subscriber_node', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install/subscriber_node:/home/ubuntu/ros2_ws/src/install/publisher_node:/home/ubuntu/ros2_ws/src/install/my_pkg:/opt/ros/humble', 'PASSWD': 'ubuntu', 'PWD': '/home/ubuntu/ros2_ws/src/build/my_pkg', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/my_pkg/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/my_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.512730] (-) TimerEvent: {}
+[0.528824] (subscriber_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/subscriber_node', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/build/subscriber_node/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/build/subscriber_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/subscriber_node', 'env': {'USER': 'ubuntu', 'HOSTNAME': '8b4faaf0a0d3', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src/subscriber_node', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install/subscriber_node:/home/ubuntu/ros2_ws/src/install/publisher_node:/home/ubuntu/ros2_ws/src/install/my_pkg:/opt/ros/humble', 'PASSWD': 'ubuntu', 'PWD': '/home/ubuntu/ros2_ws/src/build/subscriber_node', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/subscriber_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/my_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.613876] (-) TimerEvent: {}
+[0.667551] (my_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.668569] (my_pkg) StdoutLine: {'line': b'writing ../build/my_pkg/my_pkg.egg-info/PKG-INFO\n'}
+[0.672768] (my_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/my_pkg/my_pkg.egg-info/dependency_links.txt\n'}
+[0.675755] (my_pkg) StdoutLine: {'line': b'writing entry points to ../build/my_pkg/my_pkg.egg-info/entry_points.txt\n'}
+[0.676949] (my_pkg) StdoutLine: {'line': b'writing requirements to ../build/my_pkg/my_pkg.egg-info/requires.txt\n'}
+[0.677686] (my_pkg) StdoutLine: {'line': b'writing top-level names to ../build/my_pkg/my_pkg.egg-info/top_level.txt\n'}
+[0.681513] (my_pkg) StdoutLine: {'line': b"reading manifest file '../build/my_pkg/my_pkg.egg-info/SOURCES.txt'\n"}
+[0.683207] (my_pkg) StdoutLine: {'line': b"writing manifest file '../build/my_pkg/my_pkg.egg-info/SOURCES.txt'\n"}
+[0.683508] (my_pkg) StdoutLine: {'line': b'running build\n'}
+[0.683907] (my_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.684908] (my_pkg) StdoutLine: {'line': b'running install\n'}
+[0.685978] (my_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.686378] (subscriber_node) StdoutLine: {'line': b'running egg_info\n'}
+[0.686751] (subscriber_node) StdoutLine: {'line': b'writing ../build/subscriber_node/subscriber_node.egg-info/PKG-INFO\n'}
+[0.687092] (subscriber_node) StdoutLine: {'line': b'writing dependency_links to ../build/subscriber_node/subscriber_node.egg-info/dependency_links.txt\n'}
+[0.687656] (my_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.687950] (subscriber_node) StdoutLine: {'line': b'writing entry points to ../build/subscriber_node/subscriber_node.egg-info/entry_points.txt\n'}
+[0.688227] (my_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.688616] (subscriber_node) StdoutLine: {'line': b'writing requirements to ../build/subscriber_node/subscriber_node.egg-info/requires.txt\n'}
+[0.688937] (subscriber_node) StdoutLine: {'line': b'writing top-level names to ../build/subscriber_node/subscriber_node.egg-info/top_level.txt\n'}
+[0.689514] (my_pkg) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/src/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.691583] (subscriber_node) StdoutLine: {'line': b"reading manifest file '../build/subscriber_node/subscriber_node.egg-info/SOURCES.txt'\n"}
+[0.692181] (my_pkg) StdoutLine: {'line': b'Copying ../build/my_pkg/my_pkg.egg-info to /home/ubuntu/ros2_ws/src/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info\n'}
+[0.694152] (subscriber_node) StdoutLine: {'line': b"writing manifest file '../build/subscriber_node/subscriber_node.egg-info/SOURCES.txt'\n"}
+[0.694910] (subscriber_node) StdoutLine: {'line': b'running build\n'}
+[0.695390] (subscriber_node) StdoutLine: {'line': b'running build_py\n'}
+[0.696227] (subscriber_node) StdoutLine: {'line': b'running install\n'}
+[0.697584] (subscriber_node) StdoutLine: {'line': b'running install_lib\n'}
+[0.698827] (subscriber_node) StdoutLine: {'line': b'running install_data\n'}
+[0.699322] (subscriber_node) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/src/install/subscriber_node/share/subscriber_node\n'}
+[0.700364] (subscriber_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.702369] (subscriber_node) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages/subscriber_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.704205] (subscriber_node) StdoutLine: {'line': b'Copying ../build/subscriber_node/subscriber_node.egg-info to /home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages/subscriber_node-0.0.0-py3.10.egg-info\n'}
+[0.706885] (my_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.714910] (-) TimerEvent: {}
+[0.716176] (subscriber_node) StdoutLine: {'line': b'running install_scripts\n'}
+[0.722105] (my_pkg) StdoutLine: {'line': b'Installing my_node script to /home/ubuntu/ros2_ws/src/install/my_pkg/lib/my_pkg\n'}
+[0.724525] (my_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/build/my_pkg/install.log'\n"}
+[0.731695] (subscriber_node) StdoutLine: {'line': b'Installing subscriber_node script to /home/ubuntu/ros2_ws/src/install/subscriber_node/lib/subscriber_node\n'}
+[0.736101] (subscriber_node) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/build/subscriber_node/install.log'\n"}
+[0.743876] (my_pkg) CommandEnded: {'returncode': 0}
+[0.761583] (my_pkg) JobEnded: {'identifier': 'my_pkg', 'rc': 0}
+[0.763639] (subscriber_node) CommandEnded: {'returncode': 0}
+[0.772461] (subscriber_node) JobEnded: {'identifier': 'subscriber_node', 'rc': 0}
+[0.774408] (publisher_node) JobStarted: {'identifier': 'publisher_node'}
+[0.816109] (-) TimerEvent: {}
+[0.916611] (-) TimerEvent: {}
+[1.017760] (-) TimerEvent: {}
+[1.119035] (-) TimerEvent: {}
+[1.142147] (publisher_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/publisher_node', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/build/publisher_node/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/build/publisher_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/publisher_node', 'env': {'USER': 'ubuntu', 'HOSTNAME': '8b4faaf0a0d3', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src/subscriber_node', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install/subscriber_node:/home/ubuntu/ros2_ws/src/install/publisher_node:/home/ubuntu/ros2_ws/src/install/my_pkg:/opt/ros/humble', 'PASSWD': 'ubuntu', 'PWD': '/home/ubuntu/ros2_ws/src/build/publisher_node', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/publisher_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/my_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.219662] (-) TimerEvent: {}
+[1.267719] (publisher_node) StdoutLine: {'line': b'running egg_info\n'}
+[1.268998] (publisher_node) StdoutLine: {'line': b'writing ../build/publisher_node/publisher_node.egg-info/PKG-INFO\n'}
+[1.269695] (publisher_node) StdoutLine: {'line': b'writing dependency_links to ../build/publisher_node/publisher_node.egg-info/dependency_links.txt\n'}
+[1.270458] (publisher_node) StdoutLine: {'line': b'writing entry points to ../build/publisher_node/publisher_node.egg-info/entry_points.txt\n'}
+[1.271347] (publisher_node) StdoutLine: {'line': b'writing requirements to ../build/publisher_node/publisher_node.egg-info/requires.txt\n'}
+[1.271752] (publisher_node) StdoutLine: {'line': b'writing top-level names to ../build/publisher_node/publisher_node.egg-info/top_level.txt\n'}
+[1.274843] (publisher_node) StdoutLine: {'line': b"reading manifest file '../build/publisher_node/publisher_node.egg-info/SOURCES.txt'\n"}
+[1.276429] (publisher_node) StdoutLine: {'line': b"writing manifest file '../build/publisher_node/publisher_node.egg-info/SOURCES.txt'\n"}
+[1.276752] (publisher_node) StdoutLine: {'line': b'running build\n'}
+[1.276971] (publisher_node) StdoutLine: {'line': b'running build_py\n'}
+[1.277412] (publisher_node) StdoutLine: {'line': b'running install\n'}
+[1.278170] (publisher_node) StdoutLine: {'line': b'running install_lib\n'}
+[1.279123] (publisher_node) StdoutLine: {'line': b'running install_data\n'}
+[1.279407] (publisher_node) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/src/install/publisher_node/share/publisher_node\n'}
+[1.281169] (publisher_node) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/publisher_node/share/publisher_node/launch\n'}
+[1.281929] (publisher_node) StdoutLine: {'line': b'copying launch/pub_sub.launch.py -> /home/ubuntu/ros2_ws/src/install/publisher_node/share/publisher_node/launch\n'}
+[1.282809] (publisher_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.284724] (publisher_node) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages/publisher_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.285918] (publisher_node) StdoutLine: {'line': b'Copying ../build/publisher_node/publisher_node.egg-info to /home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages/publisher_node-0.0.0-py3.10.egg-info\n'}
+[1.293942] (publisher_node) StdoutLine: {'line': b'running install_scripts\n'}
+[1.306920] (publisher_node) StdoutLine: {'line': b'Installing publisher_node script to /home/ubuntu/ros2_ws/src/install/publisher_node/lib/publisher_node\n'}
+[1.308000] (publisher_node) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/build/publisher_node/install.log'\n"}
+[1.320683] (-) TimerEvent: {}
+[1.325119] (publisher_node) CommandEnded: {'returncode': 0}
+[1.335608] (publisher_node) JobEnded: {'identifier': 'publisher_node', 'rc': 0}
+[1.336919] (-) EventReactorShutdown: {}

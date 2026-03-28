@@ -1,0 +1,22 @@
+[0.338s] Invoking command in '/home/ubuntu/ros2_ws/src/subscriber_node': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/src/install/publisher_node:/home/ubuntu/ros2_ws/src/install/subscriber_node:/home/ubuntu/ros2_ws/src/install/my_pkg:/opt/ros/humble PYTHONPATH=/home/ubuntu/ros2_ws/src/build/subscriber_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/my_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/subscriber_node build --build-base /home/ubuntu/ros2_ws/src/build/subscriber_node/build install --record /home/ubuntu/ros2_ws/src/build/subscriber_node/install.log --single-version-externally-managed install_data
+[0.457s] running egg_info
+[0.457s] writing ../build/subscriber_node/subscriber_node.egg-info/PKG-INFO
+[0.458s] writing dependency_links to ../build/subscriber_node/subscriber_node.egg-info/dependency_links.txt
+[0.459s] writing entry points to ../build/subscriber_node/subscriber_node.egg-info/entry_points.txt
+[0.460s] writing requirements to ../build/subscriber_node/subscriber_node.egg-info/requires.txt
+[0.460s] writing top-level names to ../build/subscriber_node/subscriber_node.egg-info/top_level.txt
+[0.462s] reading manifest file '../build/subscriber_node/subscriber_node.egg-info/SOURCES.txt'
+[0.463s] writing manifest file '../build/subscriber_node/subscriber_node.egg-info/SOURCES.txt'
+[0.464s] running build
+[0.464s] running build_py
+[0.465s] running install
+[0.465s] running install_lib
+[0.466s] running install_data
+[0.467s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/subscriber_node/share/subscriber_node
+[0.469s] running install_egg_info
+[0.469s] removing '/home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages/subscriber_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.471s] Copying ../build/subscriber_node/subscriber_node.egg-info to /home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages/subscriber_node-0.0.0-py3.10.egg-info
+[0.477s] running install_scripts
+[0.489s] Installing subscriber_node script to /home/ubuntu/ros2_ws/src/install/subscriber_node/lib/subscriber_node
+[0.489s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/subscriber_node/install.log'
+[0.502s] Invoked command in '/home/ubuntu/ros2_ws/src/subscriber_node' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/src/install/publisher_node:/home/ubuntu/ros2_ws/src/install/subscriber_node:/home/ubuntu/ros2_ws/src/install/my_pkg:/opt/ros/humble PYTHONPATH=/home/ubuntu/ros2_ws/src/build/subscriber_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/publisher_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/subscriber_node/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/my_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/subscriber_node build --build-base /home/ubuntu/ros2_ws/src/build/subscriber_node/build install --record /home/ubuntu/ros2_ws/src/build/subscriber_node/install.log --single-version-externally-managed install_data
